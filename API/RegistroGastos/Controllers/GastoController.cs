@@ -14,7 +14,7 @@ namespace RegistroGastos.Controllers
         {
             _context = context;
         }
-        //Comentario para probar SonarQube Cloud
+        //SonarQube Cloud
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Gasto>>> Get()
         {
